@@ -6,13 +6,13 @@ const fs = require('fs');
 const { getmovieData } = require('./movieModule.js');
 
 //***************************************************************************************************************** */
-const name = 'Mumtaz Maqsood';
+/*const name = 'Mumtaz Maqsood';
 
 const name1 = {
     name: 'Fadia Shafiq',
     age: '35'
 
-}
+}*/
 //***************************************************************************************************************** */
 
 
@@ -21,7 +21,7 @@ const name1 = {
 //***************************************************************************************************************** */
 // Declaring class and it has two methods 
 //***************************************************************************************************************** */
-class personData {
+/*class personData {
     constructor() {
         this.name = 'GUl Andam';
         this.age = 7;
@@ -36,7 +36,7 @@ class personData {
 }
 
 
-const p = new personData;
+const p = new personData;*/
 //***************************************************************************************************************** */
 
 
@@ -98,9 +98,9 @@ module.exports.getName1 = name1;
 module.exports.getClass = p; */
 
 module.exports = {
-    name: name,
+    /*name: name,
     getName1: name1,
-    getClass: p,
+    getClass: p,*/
     validateData: validateData
 
 };
